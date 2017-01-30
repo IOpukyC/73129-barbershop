@@ -5,6 +5,11 @@ body {
   font-weight: bold;
   font-family: 'PT Sans Narrow', 'Arial', sans-serif;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 h1 {
   font-size: 30pt;
@@ -14,4 +19,194 @@ h1 {
 h2 {
   font-size: 24pt;
   line-height: 30pt;
+}
+.container {
+  width:940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main-header {
+  margin-bottom: 60px;
+}
+
+.logo {
+  display:block;
+  float:left;
+  margin-right: 20px;
+}
+
+.main-navigation {
+  float: left;
+  width: 540px;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 50px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+}
+.breadcrumbs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.breadcrumbs li:after {
+  font-size: 0;
+}
+
+.gallery {
+  width: 460px;
+  float: left;
+}
+
+.gallery-small {
+  float:left;
+  width: 140px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.gallery-small:last-child {
+  margin-right: 0;
+}
+
+.detail {
+  width: 400px;
+  float: right;
+}
+
+.detail-available {
+  float: left;
+  margin-bottom: 25px;
+}
+
+.detail-itemcode {
+  float: right;
+  margin-bottom: 25px;
+}
+
+.detail-description {
+  clear: both;
+  margin-bottom: 35px;
+}
+
+.detail-price {
+  margin-bottom: 65px;
+}
+
+.detail-price div {
+  float: left;
+  width: 110px;
+}
+
+.detail-price a {
+  float: left;
+  width: 80px;
+}
+
+.filters {
+  float: left;
+  width: 220px;
+}
+
+.filters form {
+  float: left;
+}
+
+label {
+  display: block;
+}
+
+.catalog {
+  width: 700px;
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.catalog-item {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pagination {
+  margin-top: 45px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  clear: both;
+}
+
+.pagination li{
+  display: inline-block;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
 }
