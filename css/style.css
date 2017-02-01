@@ -20,6 +20,11 @@ h2 {
   font-size: 24pt;
   line-height: 30pt;
 }
+
+img {
+  display: block;
+}
+
 .container {
   width:940px;
   margin: 0 auto;
@@ -114,13 +119,11 @@ h2 {
   float: left;
 }
 
-.gallery-small {
-  margin-top: 20px;
-}
 .gallery-pic {
   float:left;
   width: 140px;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 .gallery-pic:last-child {
@@ -166,10 +169,13 @@ label {
   display: block;
 }
 
-.catalog {
+.main-content {
   width: 700px;
   float:left;
   margin-left: 20px;
+}
+
+.catalog {
   font-size: 0;
 }
 
