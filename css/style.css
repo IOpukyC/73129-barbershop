@@ -40,6 +40,20 @@ h2 {
   width: 540px;
 }
 
+.main-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+.main-navigation ul li{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14pt;
+
+}
+
 .user-block {
   float: right;
   width: 140px;
@@ -86,14 +100,13 @@ h2 {
   padding: 0;
   margin: 0;
   margin-bottom: 40px;
+  font-size: 0;
 }
 
 .breadcrumbs li {
   display: inline-block;
-}
-
-.breadcrumbs li:after {
-  font-size: 0;
+  vertical-align: top;
+  font-size: 14pt;
 }
 
 .gallery {
@@ -102,13 +115,15 @@ h2 {
 }
 
 .gallery-small {
+  margin-top: 20px;
+}
+.gallery-pic {
   float:left;
   width: 140px;
   margin-right: 20px;
-  margin-top: 20px;
 }
 
-.gallery-small:last-child {
+.gallery-pic:last-child {
   margin-right: 0;
 }
 
@@ -132,10 +147,6 @@ h2 {
   margin-bottom: 35px;
 }
 
-.detail-price {
-  margin-bottom: 65px;
-}
-
 .detail-price div {
   float: left;
   width: 110px;
@@ -151,10 +162,6 @@ h2 {
   width: 220px;
 }
 
-.filters form {
-  float: left;
-}
-
 label {
   display: block;
 }
@@ -162,13 +169,15 @@ label {
 .catalog {
   width: 700px;
   float:left;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 20px;
+  font-size: 0;
 }
 
 .catalog-item {
   width: 220px;
-  float: left;
+  font-size: 14pt;
+  display: inline-block;
+  vertical-align: top;
   margin-right: 20px;
   margin-bottom: 20px;
 }
@@ -179,14 +188,16 @@ label {
 
 .pagination {
   margin-top: 45px;
+  font-size: 0;
   padding: 0;
   margin: 0;
   list-style: none;
-  clear: both;
 }
 
 .pagination li{
   display: inline-block;
+  vertical-align: top;
+  font-size: 14pt;
 }
 
 .main-footer {
